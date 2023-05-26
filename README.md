@@ -12,7 +12,7 @@
       Demo
     </a>
     <span> | </span>
-    <a href="https://{your-url-to-the-solution}">
+    <a href="https://devchallenges.io/solutions/d6YEF2o4oDjn9d9S4kKm">
       Solution
     </a>
     <span> | </span>
@@ -39,7 +39,7 @@
 
 ![screenshot](preview.png)
 
-The project is hosted on Vercel. It took about a couple of hours to complete. I needed to refresh my knowledge on grid since I have issues with it as well as media queries. I am so used to frameworks that I forget the fundamental information required for responsive web desgin.
+The project is hosted on Vercel. It took about a couple of hours to complete. Still pretty wonky but I got tired. It has issues with media queries at the moment. I also needed to refresh my knowledge on grid. I am so used to frameworks that I forget the fundamental information required for responsive web desgin.
 
 ### Built With
 
