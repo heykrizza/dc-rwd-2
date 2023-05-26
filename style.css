@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&family=PT+Serif:wght@400;700&family=Poppins:wght@400;600&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Poppins, Arial, Helvetica, sans-serif;
+}
+
+/* Mobile Styles */
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+h1 {
+  font-family: 'PT Serif', 'Times New Roman', Times, serif;
+  font-size: 36px;
+  margin-bottom: 38px;
+}
+
+h2 {
+  margin-bottom: 12px;
+  font-size: 18px;
+  text-transform: uppercase;
+}
+
+.description p {
+  font-size: 14px;
+  line-height: 24px;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  padding: 24px;
+}
+
+.team-grid {
+  flex: 1;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 24px;
+  gap: 8px;
+}
+
+.team-member {
+  display: flex;
+  flex-direction: column;
+  height: 370px;
+}
+
+.team-member:nth-child(even) {
+  justify-content: flex-end;
+}
+
+.team-member-details {
+  position: relative;
+  display: flex;
+}
+
+.team-member-photo {
+  flex: 1;
+}
+
+.team-member-photo img {
+  width: 95%;
+}
+
+.team-member-role {
+  font-family: 'PT Serif', 'Times New Roman', Times, serif;
+  text-transform: uppercase;
+  writing-mode: vertical-rl;
+}
+
+.team-member-name {
+  margin-top: 12px;
+  font-weight: 600;
+}
+
+.footer {
+  padding: 24px;
+  color: #a9a9a9;
+  font-size: 14px;
+  text-align: center;
+}
+
+/* Desktop Styles */
+
+@media (min-width: 768px) {
+  .wrapper {
+    margin: 0 15rem;
+  }
+
+  .header {
+    flex-direction: row;
+  }
+
+  .description {
+    margin-left: 14rem;
+    width: 440px;
+  }
+
+  .description p {
+    font-size: 18px;
+  }
+
+  .team-grid {
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 32px;
+  }
+
+  .team-member {
+    height: 750px;
+  }
+
+  .team-member:nth-child(even) {
+    justify-content: flex-start;
+  }
+
+  .team-member:nth-child(2) {
+    justify-content: flex-end;
+  }
+
+  .team-member:nth-child(5) {
+    justify-content: flex-end;
+  }
+
+  .team-member-role {
+    font-size: 18px;
+  }
+
+  .team-member-name {
+    font-size: 18px;
+  }
+}
